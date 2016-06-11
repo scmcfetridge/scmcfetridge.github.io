@@ -82,6 +82,14 @@
     background: url(../assets/gate.jpg) no-repeat center; 
     background-size: cover;
 }
+.gate:hover {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+      ), 
+      url(../assets/gate.jpg) no-repeat center; 
+    background-size: cover;
+}
 .hike {
     background: url(../assets/hike.jpg) no-repeat center; 
     background-size: cover;
