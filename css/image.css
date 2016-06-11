@@ -1,0 +1,92 @@
+.brickImg {
+    width: 100%;
+    height: 100%;
+}
+.siena {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+      ), url(../assets/siena.jpg) no-repeat center; 
+    background-size: cover;
+}
+
+.insta {
+    width: 100%;
+    height: 100%;
+}
+.shrine {
+    background: url(../assets/shrine.jpg) no-repeat center; 
+    background-size: cover;
+}
+.aixBuilding {
+    background: url(../assets/aixBuilding.jpg) no-repeat center; 
+    background-size: cover;
+}
+.aixStreet {
+    background: url(../assets/aixStreet.jpg) no-repeat center; 
+    background-size: cover;
+}
+.easel {
+    background: url(../assets/easel.jpg) no-repeat center; 
+    background-size: cover;
+}
+.florence {
+    background: url(../assets/florence.jpg) no-repeat center; 
+    background-size: cover;
+}
+.googlePride {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+      ), 
+      url(../assets/googlePride.jpg) no-repeat center; 
+    background-size: cover;
+}
+.mykonos {
+    background: url(../assets/mykonos.jpg) no-repeat center; 
+    background-size: cover;
+}
+.sf {
+    background: url(../assets/sf.jpg) no-repeat center; 
+    background-size: cover;
+}
+.nyc {
+    background: url(../assets/nyc.jpg) no-repeat center; 
+    background-size: cover;
+}
+.sienaPaint {
+    background: url(../assets/sienaPaint.jpg) no-repeat center; 
+    background-size: cover;
+}
+.venice {
+    background: url(../assets/venice.jpg) no-repeat center; 
+    background-size: cover;
+}
+.gate {
+    background: url(../assets/gate.jpg) no-repeat center; 
+    background-size: cover;
+}
+.hike {
+    background: url(../assets/hike.jpg) no-repeat center; 
+    background-size: cover;
+}
+.kosamet {
+    background: url(../assets/kosamet.jpg) no-repeat center; 
+    background-size: cover;
+}
+.milan {
+    background: url(../assets/milan.jpg) no-repeat center; 
+    background-size: cover;
+}
+.sunset {
+    background: url(../assets/sunset.jpg) no-repeat center; 
+    background-size: cover;
+}
+.tokyo {
+    background: url(../assets/tokyo.jpg) no-repeat center; 
+    background-size: cover;
+}
+.tulips {
+    background: url(../assets/tulips.jpg) no-repeat center; 
+    background-size: cover;
+}

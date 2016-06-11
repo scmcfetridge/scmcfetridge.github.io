@@ -1,1 +1,165 @@
-Hello world
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Append block</title>
+		<meta content="text/html; charset=utf-8" http-equiv="content-type">
+		<meta name="description" content="Append block" />
+		<meta name="keywords" content="javascript, dynamic, grid, layout, jquery plugin, flex layouts"/>
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/image.css" />
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="freewall.js"></script>
+		<style type="text/css">
+            html, body {
+				height: 100%;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+                background-color: black;
+			}
+			.free-wall {
+				margin: 15px;
+			}
+            .brick img {
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
+                display: block;
+                height: auto;
+            }
+            .overlay {
+                background-color: black;
+                opacity: 0.5;
+                height: 100%;
+                width: 100%;
+            }
+            .textLabel {
+                text-align: center;
+                position: relative;
+            }
+            .text-bottom {
+                position: absolute;
+                font-size: 200%;
+                bottom: 5%;
+                left: 5%;
+                color: white;
+                opacity: 1.0;
+            }
+		</style>
+	</head>
+	<body>
+		<div id="freewall" class="free-wall">
+            <div class="brick size11">
+				<div class='cover'>
+                    <h2>IN</h2>
+				</div>
+			</div>
+            <div class="brick size22">
+		        <div class="brickImg siena">
+                    <div class="text-bottom"><h1>About Me</h1></div>
+                </div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta shrine"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta aixStreet"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta aixBuilding"></div>
+		    </div>
+            <div class="brick size22">
+                <div class="insta googlePride">
+                    <div class="text-bottom"><h1>Resume</h1></div>
+                </div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta easel"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta florence"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta mykonos"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta nyc"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta sf"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta venice"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta gate"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta hike"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta kosamet"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta milan"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta sunset"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta tokyo"></div>
+		    </div>
+            <div class="brick size11">
+		        <div class="insta tulips"></div>
+		    </div>
+			
+		</div>
+		
+		<script type="text/javascript">
+            
+            var randomBoxes = []
+
+			var colour = [
+				"rgb(135, 0, 0)",
+			];
+
+			$(".brick").each(function() {
+				this.style.backgroundColor =  colour[colour.length * Math.random() << 0];
+			});
+
+			$(function() {
+				var wall = new Freewall("#freewall");
+				wall.reset({
+					selector: '.brick',
+					animate: true,
+					cellW: 160,
+					cellH: 160,
+					delay: 50,
+					onResize: function() {
+						wall.fitWidth()
+                    }
+				});
+                
+                wall.fitWidth()
+				var temp = '<div class="brick {size}" style="background-color: {color}"><div class="cover"></div></div>';
+				var size = "size33 size32 size31 size23 size22 size21 size13 size12".split(" ");
+				
+                
+				var html = "";
+				for (var i = 0; i < 4; ++i) {
+				html += temp.replace('{size}', size[8])
+				            .replace('{color}', colour[colour.length * Math.random() << 0]);
+				}
+                
+				wall.appendBlock(html);
+                
+                
+                wall.fitWidth()
+                
+			});
+            
+            
+		</script>
+	</body>
+</html>
