@@ -27,10 +27,7 @@
     background-size: cover;
 }
 .easel {
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.25),
-      rgba(0, 0, 0, 0.25)
-      ), url(../assets/easel.jpg) no-repeat center; 
+    background: url(../assets/easel.jpg) no-repeat center; 
     background-size: cover;
 }
 .florence {
@@ -95,5 +92,41 @@
 }
 .tulips {
     background: url(../assets/tulips.jpg) no-repeat center; 
+    background-size: cover;
+}
+.books {
+    background: url(../assets/books.jpg) no-repeat center; 
+    background-size: cover;
+}
+.magnets {
+    background: url(../assets/magnets.jpg) no-repeat center; 
+    background-size: cover;
+}
+.rome {
+    background: url(../assets/rome.jpg) no-repeat center; 
+    background-size: cover;
+}
+.cassis {
+    background: url(../assets/cassis.jpg) no-repeat center; 
+    background-size: cover;
+}
+.shinjuku {
+    background: url(../assets/shinjuku.jpg) no-repeat center; 
+    background-size: cover;
+}
+.bangkok {
+    background: url(../assets/bangkok.jpg) no-repeat center; 
+    background-size: cover;
+}
+.disney {
+    background: url(../assets/disney.jpg) no-repeat center; 
+    background-size: cover;
+}
+.fox {
+    background: url(../assets/fox.jpg) no-repeat center; 
+    background-size: cover;
+}
+.castle {
+    background: url(../assets/castle.jpg) no-repeat center; 
     background-size: cover;
 }
