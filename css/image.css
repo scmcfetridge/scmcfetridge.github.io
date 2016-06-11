@@ -4,8 +4,8 @@
 }
 .siena {
     background: linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
       ), url(../assets/siena.jpg) no-repeat center; 
     background-size: cover;
 }
@@ -42,18 +42,18 @@
     background: url(../assets/florence.jpg) no-repeat center; 
     background-size: cover;
 }
-.googlePride {
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
-      ), 
-      url(../assets/googlePride.jpg) no-repeat center; 
-    background-size: cover;
-}
 .googlePride:hover {
     background: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
+      ), 
+      url(../assets/googlePride.jpg) no-repeat center; 
+    background-size: cover;
+}
+.googlePride {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
       ), 
       url(../assets/googlePride.jpg) no-repeat center; 
     background-size: cover;
@@ -78,14 +78,17 @@
     background: url(../assets/venice.jpg) no-repeat center; 
     background-size: cover;
 }
-.gate {
-    background: url(../assets/gate.jpg) no-repeat center; 
-    background-size: cover;
-}
 .gate:hover {
     background: linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ), url(../assets/gate.jpg) no-repeat center; 
+    background-size: cover;
+}
+.gate {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
       ), 
       url(../assets/gate.jpg) no-repeat center; 
     background-size: cover;
@@ -94,18 +97,18 @@
     background: url(../assets/hike.jpg) no-repeat center; 
     background-size: cover;
 }
-.kosamet {
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.15),
-      rgba(0, 0, 0, 0.15)
-      ), 
-      url(../assets/kosamet.jpg) no-repeat center; 
-    background-size: cover;
-}
 .kosamet:hover {
     background: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
+      ), 
+      url(../assets/kosamet.jpg) no-repeat center; 
+    background-size: cover;
+}
+.kosamet {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
       ), 
       url(../assets/kosamet.jpg) no-repeat center; 
     background-size: cover;
