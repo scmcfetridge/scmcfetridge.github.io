@@ -27,7 +27,10 @@
     background-size: cover;
 }
 .easel {
-    background: url(../assets/easel.jpg) no-repeat center; 
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+      ), url(../assets/easel.jpg) no-repeat center; 
     background-size: cover;
 }
 .florence {
@@ -36,8 +39,8 @@
 }
 .googlePride {
     background: linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
       ), 
       url(../assets/googlePride.jpg) no-repeat center; 
     background-size: cover;
